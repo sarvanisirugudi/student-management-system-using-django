@@ -86,9 +86,26 @@ Follow the prompts to set up the superuser account.
 
 ## Usage
 
+### Activate Virtual Environment
+
+Clone the repository.
+Before running the project, activate your virtual environment named `studentenvironment`. If you haven't created it yet, you can create it and activate it using the following commands:
+
+```bash
+    # Create a virtual environment named studentenvironment
+    python -m venv studentenvironment
+    # Activate the virtual environment (Windows)
+    studentenvironment\Scripts\activate
+```
+
+Start the Django development server to run your application:
+
+```bash
+    python manage.py runserver
+```
+
 1. Access the admin interface at `http://127.0.0.1:8000/admin/` and log in using the superuser credentials.
 2. Add, edit, update, and delete student records through the admin interface.
 
 Open your browser and navigate to `http://127.0.0.1:8000/` to see your application running.
-
 
