@@ -91,4 +91,4 @@ Follow the prompts to set up the superuser account.
 
 Open your browser and navigate to `http://127.0.0.1:8000/` to see your application running.
 
-## Create Superuser
+
